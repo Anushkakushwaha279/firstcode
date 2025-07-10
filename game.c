@@ -7,7 +7,7 @@ int main()  {
     int random, guess;
     int no_of_guess =0;
     srand(time(NULL));
-    char name[]=" "  ;
+    char name[]="         "  ;
     printf(" enter your name: ", name );
     scanf("%s", name);
  
@@ -17,7 +17,7 @@ int main()  {
     printf("welcome to the world of guessing number\n");
     
     random = rand() % 100 + 1;
-    printf("number generated: %d", random);
+    
 
     do{
         printf("\nplease enter your guess number between(1 to 100): ");
