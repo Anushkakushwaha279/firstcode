@@ -8,7 +8,7 @@ int main()  {
     int no_of_guess =0;
     srand(time(NULL));
     char name[]="         "  ;
-    printf(" enter your name: ", name );
+    printf(" enter your nick name: ", name );
     scanf("%s", name);
  
  
